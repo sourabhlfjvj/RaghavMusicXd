@@ -112,7 +112,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅᴀʙᴀɴɢ] 🥀", url=config.SUPPORT_GROUP
+                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
                 text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
@@ -145,7 +145,7 @@ def stream_markup(_, videoid, chat_id):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅᴀʙᴀɴɢ]🥀", url=config.SUPPORT_GROUP
+                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=config.SUPPORT_GROUP
             ),
         ],
         [
@@ -153,7 +153,7 @@ def stream_markup(_, videoid, chat_id):
                 text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/sexyaaditya",
             ),
            InlineKeyboardButton(
-                text="💝ᴄᴏ ᴏᴡɴᴇʀ[❣️]💝", url=f"https://t.me/Baapxvipin",
+                text="💝ᴄᴏ ᴏᴡɴᴇʀ💝", url=f"https://t.me/Baapxvipin",
             ),
         ],
         [
