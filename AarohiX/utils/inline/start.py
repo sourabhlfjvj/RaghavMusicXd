@@ -10,7 +10,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥺 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ [❤‍🔥ᴅᴀʙᴀɴɢ❤‍🔥] 🥺",
+                text="🥺 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ 🥺",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
@@ -27,14 +27,14 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="💖 ᴏᴡɴᴇʀ 💖", url=f"https://t.me/sexyaaditya"),
             InlineKeyboardButton(
-                text="🥰 ᴄᴏ ᴏᴡɴᴇʀ[❣️] 🥰", url=f"https://t.me/Baapxvipin"
+                text="🥰 ᴄᴏ ᴏᴡɴᴇʀ 🥰", url=f"https://t.me/Baapxvipin"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ[xᴅ]💝", user_id=OWNER),
+                text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ💝", user_id=OWNER),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ[ᴅᴀʙᴀɴɢ]🥰", url=config.SUPPORT_GROUP
+                text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
             ),
         ],
      ]
@@ -58,18 +58,18 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="💖 ᴏᴡɴᴇʀ 💖", url=f"https://t.me/sexyaaditya"),
             InlineKeyboardButton(
-                text="🥰 ᴄᴏ ᴏᴡɴᴇʀ[❣️] 🥰", url=f"https://t.me/Baapxvipin"
+                text="🥰 ᴄᴏ ᴏᴡɴᴇʀ 🥰", url=f"https://t.me/Baapxvipin"
             ),
         ],
         [
-            InlineKeyboardButton(text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ[xᴅ]💝", user_id=OWNER),
+            InlineKeyboardButton(text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ💝", user_id=OWNER),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ[ᴅᴀʙᴀɴɢ❣️]🥰", url=config.SUPPORT_GROUP
+                text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="🥰 ᴀʙᴏᴜᴛ 🥰", url=f"https://t.me/WhoIsAaditya"
+                    text="🥰 ᴍᴏʀᴇ 🥰", url=f"https://t.me/WhoIsAaditya"
                 )
         ],
      ]
