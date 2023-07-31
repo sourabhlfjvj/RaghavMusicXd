@@ -7,7 +7,7 @@ from pyrogram.types import ChatPermissions
 
 spam_chats = []
 
-EMOJI = ["🦋🦋🦋🦋🦋"]
+EMOJI = ["🥵🥵🥵🥵"]
 
 TAGMES = [ " **𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 𝐊𝐚𝐡𝐚 𝐇𝐨🥱** ",
            " **𝐎𝐲𝐞 𝐒𝐨 𝐆𝐲𝐞 𝐊𝐲𝐚 𝐎𝐧𝐥𝐢𝐧𝐞 𝐀𝐚𝐨😊** ",
@@ -117,7 +117,7 @@ async def mentionall(client, message):
         return await message.reply("Only admin can use this command!")
 
     if message.reply_to_message and message.text:
-        return await message.reply("/tagall hello 👈 Try this next time for tagging..")
+        return await message.reply("/tagall hola 👈 Next time try this for tagging..")
     elif message.text:
         mode = "text_on_cmd"
         msg = message.text
@@ -125,9 +125,9 @@ async def mentionall(client, message):
         mode = "text_on_reply"
         msg = message.reply_to_message
         if not msg:
-            return await message.reply("/tagall hii 👈 Try this or reply any message...")
+            return await message.reply("/tagall hello 👈 Try this or reply any message...")
     else:
-        return await message.reply("/tagall hii 👈 Try this or reply any message...")
+        return await message.reply("/tagall Hello 👈 Try this or reply any message...")
 
     spam_chats.append(chat_id)
     usrnum = 0
@@ -157,7 +157,7 @@ async def mentionall(client, message):
 @app.on_message(filters.command(["cancel", "stop"]))
 async def cancel_spam(client, message):
     if not message.chat.id in spam_chats:
-        return await message.reply("No active mention process is started by me.")
+        return await message.reply("No active mention process is started by me🥲🥲.")
     is_admin = False
     try:
         participant = await client.get_chat_member(message.chat.id, message.from_user.id)
@@ -167,10 +167,10 @@ async def cancel_spam(client, message):
         if participant.status in ("administrator", "creator"):
             is_admin = True
     if not is_admin:
-        return await message.reply("This command is only for admins. You can't use this command.")
+        return await message.reply("This command is only for admins🌚. JAKE PHLE ADMIN BN,THEN USE ME🤣.")
     else:
         try:
             spam_chats.remove(message.chat.id)
         except:
             pass
-        return await message.reply("♦ Mention process stopped ♦")
+        return await message.reply("🥺 Mention process stopped 🥺")
