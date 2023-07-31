@@ -89,7 +89,7 @@ async def helper_cb(client, CallbackQuery, _):
     if cb == "hb9":
         if CallbackQuery.from_user.id not in SUDOERS:
             return await CallbackQuery.answer(
-                "ʜᴀᴀɴ ᴀᴀᴊᴀ ʙsᴅᴋ ʟᴜɴᴅ ʟᴇʟᴇ ᴍᴇʀᴀ.\n\nᴊʜᴀᴀᴛ ʙᴀʀᴀᴀʙᴀʀ ᴅɪᴍᴀᴀɢ ʜᴀɪ ɴᴀʜɪ ᴀᴜʀ ᴏᴡɴᴇʀ ʙᴀɴᴇɴɢᴇ.", show_alert=True
+                "Kbhi kbhi meri dil me khyaal ata hai \n\nayse chutiyo ko kon paida kr jata hai😂..", show_alert=True
             )
         else:
             await CallbackQuery.edit_message_text(
