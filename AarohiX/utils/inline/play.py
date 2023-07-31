@@ -51,10 +51,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/sexyaaditya",
-            ),
-           InlineKeyboardButton(
-                text="💝ᴄᴏ ᴏᴡɴᴇʀ💝", url=f"https://t.me/Baapxvipin",
+                text="📿ᴏᴡɴᴇʀ📿", url=f"https://t.me/lll_KILL_YOU_lll",
             ),
         ],
         [
@@ -104,11 +101,9 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/sexyaaditya",
+                text="📿ᴏᴡɴᴇʀ📿", url=f"https://t.me/lll_KILL_YOU_lll",
             ),
-           InlineKeyboardButton(
-                text="💝ᴄᴏ ᴏᴡɴᴇʀ💝", url=f"https://t.me/Baapxvipin",
-            ),
+          
         ],
         [
             InlineKeyboardButton(
@@ -150,11 +145,9 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/sexyaaditya",
+                text="📿ᴏᴡɴᴇʀ📿 ", url=f"https://t.me/lll_KILL_YOU_lll",
             ),
-           InlineKeyboardButton(
-                text="💝ᴄᴏ ᴏᴡɴᴇʀ💝", url=f"https://t.me/Baapxvipin",
-            ),
+          
         ],
         [
             InlineKeyboardButton(
@@ -184,11 +177,9 @@ def telegram_markup(_, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/sexyaaditya",
+                text="📿ᴏᴡɴᴇʀ📿", url=f"https://t.me/lll_KILL_YOU_lll",
             ),
-           InlineKeyboardButton(
-                text="💝ᴄᴏ ᴏᴡɴᴇʀ💝", url=f"https://t.me/Baapxvipin",
-            ),
+          
         ],
         [
             InlineKeyboardButton(
@@ -341,11 +332,9 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/sexyaaditya",
+                text="📿ᴏᴡɴᴇʀ📿", url=f"https://t.me/lll_KILL_YOU_lll",
             ),
-           InlineKeyboardButton(
-                text="💝ᴄᴏ ᴏᴡɴᴇʀ💝", url=f"https://t.me/Baapxvipin",
-            ),
+          
         ],
         [
             InlineKeyboardButton(
