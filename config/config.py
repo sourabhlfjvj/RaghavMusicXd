@@ -7,26 +7,26 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "16051908"))
-API_HASH = getenv("API_HASH", "abf9b83f9ca40cf9f5ba9bf6e6afaa8b")
+API_ID = int(getenv("API_ID", "17615707"))
+API_HASH = getenv("API_HASH", "1ec80de7f9a57611702bf5d0112173e6")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "6356639472:AAEsExQZnOR1_WBOLM_GwXtLvtn-tJPHQ7E")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://aadityalegend29:aadityaxd29@cluster0.agz17i3.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001954221487"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "DABANG MUSIC BOT")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001972072891"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "RAGHAV MUSICXd BOT")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5999224089").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6382141999").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/onenonlybotz/MusicXd")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/sourabhlfjvj/RaghavMusicXd")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/WhoIsAaditya")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DabangTheBrand")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/premnagriii")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/premnagriii")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
  
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/f578d97a99a8cc61708ad.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/943421b241bbda6b3812c.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/f578d97a99a8cc61708ad.jpg",
+    "https://graph.org/file/943421b241bbda6b3812c.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/196eb5236b1c91f294085.jpg"
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/56d1760224589ee370186.jpg"
+            PING_IMG_URL = "https://graph.org/file/943421b241bbda6b3812c.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/8371be32cd092285e204f.jpg"
+            START_IMG_URL = "https://graph.org/file/943421b241bbda6b3812c.jpg"
